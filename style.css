@@ -7,7 +7,7 @@ body {
   );
   text-align: center;
   color: white;
-  background: #030347;
+  background: #311297;
 }
 h1 {
   background-color: #c4aa00;
@@ -34,6 +34,7 @@ button {
   border-radius: 10px;
   box-shadow: 1px 1px 6px black;
   cursor: pointer;
+  font-size: 15px;
 }
 button:hover {
   background-color: #ada360;
@@ -53,4 +54,15 @@ input {
 }
 .final-step {
   display: none;
+}
+#resultado {
+  font-size: 32px;
+}
+h3 {
+  font-size: 30px;
+}
+span {
+  font-size: 12px;
+  position: absolute;
+  transform: translate(-5%, 15%);
 }
